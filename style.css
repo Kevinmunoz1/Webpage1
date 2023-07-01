@@ -101,8 +101,37 @@ img{
     align-self: flex-end;
     font-style: italic;
     }
-.footer{
+
+.section4 {
     
+    padding: 50px 150px;
+}
+
+.section4 .bigbox{
+    justify-content: space-evenly;
+    padding: 20px;
+    display: flex;
+    border-radius: 5px;
+    color: #E5E7EB;
+    background-color: #3882F6;
+}
+.section4 h2{
+    font-weight: 800;
+}
+.section4 .button{
+    align-self: flex-end;
+}
+.section4 button{
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border-color: #E5E7EB;
+    background-color: #3882F6 ;
+    color: #E5E7EB;
+    margin: 5px 0px;
+}
+.footer{
+    padding: 15px;
     display: flex;
     justify-content: center;
     background-color: #1F2937;
